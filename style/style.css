@@ -41,4 +41,40 @@
   padding: 8px 22px;
   border-left: 1px solid #494949;
 }
+
+.mainProduct {
+  background: #E0E1E2;
+  height: 880px;
+  position: relative;
+}
+
+.mainProduct__text-h2 {
+  position: absolute;
+  z-index: 1;
+  width: 495px;
+  height: 42px;
+  left: 713px;
+  top: 100px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #2F3132;
+}
+
+.mainProduct__img {
+  z-index: 0;
+  position: absolute;
+  width: 1160px;
+  height: 671px;
+  left: 380px;
+  top: 20px;
+  background: url(MX-Master.png);
+  border: 1px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
 /*# sourceMappingURL=style.css.map */
