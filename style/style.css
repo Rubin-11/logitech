@@ -102,4 +102,28 @@
   height: 29px;
   top: 771px;
 }
+
+.mouseOperation {
+  height: 809px;
+  background: #EDEDED;
+  position: relative;
+}
+
+.mouseOperation__bluetooth {
+  position: absolute;
+  left: 49.27%;
+  right: 49.61%;
+  top: 9.88%;
+  bottom: 85.19%;
+}
+
+.mouseOperation__text-h2 {
+  position: -webkit-sticky;
+  position: sticky;
+  padding-top: 155px;
+  width: 270px;
+  height: 41px;
+  margin-left: auto;
+  margin-right: auto;
+}
 /*# sourceMappingURL=style.css.map */
